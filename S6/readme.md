@@ -13,28 +13,7 @@
 •	with L1 and L2 with GBN
 
 # Validation Accuracy:
-
-
- 
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
- 
- 
-
- 
-
+![Alt Text](https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S6/val_acc.jpg)
 # Validation Loss:
 https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S6/val_loss.jpg
 
