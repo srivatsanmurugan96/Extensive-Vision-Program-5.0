@@ -15,7 +15,7 @@
 # Validation Accuracy:
 ![Alt Text](https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S6/val_acc.jpg)
 # Validation Loss:
-https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S6/val_loss.jpg
+![Alt Text](https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S6/val_loss.jpg)
 
 
 L1+ Batch Normalization: The loss curve is displayed in Blue color. The curve shows that negative log loss increases at first and decreases suddenly and it become stable after 10 epochs. This model is not efficient.
@@ -27,5 +27,5 @@ When comparing both accuracy and loss, we can able to infer that Ghost Batch Nor
 ### Inference: From the graph, we can see that L1 + L2 + BatchNormalization and GhostBatchNormalization gives the best accuracy score, but the model with L1 + L2 + BatchNormalization is not consistent. We can see the loss and accuracy are fluctuating. The Model with GhostBatchNormalization gives good accuracy with consistency. So this is a good model comparatively.
 
 # 25 Mis-Classified Images:
-https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S6/incorrect_images.jpg
+![Alt Text](https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S6/incorrect_images.jpg)
 
