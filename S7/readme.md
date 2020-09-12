@@ -1,5 +1,6 @@
 # CIFAR 10 - Object Recognition in Images
 #### Achieved 80% Accuracy in both test and train within 9 epochs
+#### Highest Test Accuracy - 85.45%
 -------------------------------------------------------------------------------------------------------------------------
 # Parameters:
 #### Total params: 535,456
