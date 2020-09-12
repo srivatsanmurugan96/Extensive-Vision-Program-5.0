@@ -29,13 +29,15 @@ class CIFAR_Depthwise_Separable_Model(nn.Module):
             nn.ReLU(),
             nn.Dropout2d(self.drop_val),
         )
-        # Input-32x32x3, Output-32x32x32, RF-3
-        # Input-32x32x32, Output-32x32x128, RF-5
+        # Conv1 -Input-32x32x3, Output-32x32x32, RF-3
+        # Conv2 -Input-32x32x32, Output-32x32x128, RF-5
+        
         self.MP1 = nn.Sequential(
             nn.MaxPool2d(2, 2),
             nn.Conv2d(in_channels=128, out_channels=32, kernel_size=(1, 1), bias=False))
-        # Input-32x32x128, Output-16x16x128, RF-6
-        # Input-16x16x128, Output-16x16x32 , RF-6
+        
+        # Max Pooling 1- Input-32x32x128, Output-16x16x128, RF-6
+        # Transition Layer 1- Input-16x16x128, Output-16x16x32 , RF-6
 
         # Convolution Block 2
         self.convblock2 = nn.Sequential(
@@ -48,15 +50,15 @@ class CIFAR_Depthwise_Separable_Model(nn.Module):
             nn.ReLU(),
             nn.Dropout2d(self.drop_val),
         )
-        # Input-16x16x32, Output-16x16x64 , RF-10
-        # Input-16x16x64, Output-16x16x256 , RF-14
+        # Conv3 - Input-16x16x32, Output-16x16x64 , RF-10
+        # Conv4 - Input-16x16x64, Output-16x16x256 , RF-14
 
         self.MP2 = nn.Sequential(
             nn.MaxPool2d(2, 2),
             nn.Conv2d(in_channels=256, out_channels=64, kernel_size=(1, 1), bias=False)
         )
-        # Input- 16x16x256 , Output-8x8x256, RF-16
-        # Input- 8x8x256 , Output-8x8x64, RF-16
+        # Max Pooling 2 - Input- 16x16x256 , Output-8x8x256, RF-16
+        # Transition Layer 2 -Input- 8x8x256 , Output-8x8x64, RF-16
 
         # Convolution Block 3 - Depthwise separable convolution and Dilation
         self.convblock3 = nn.Sequential(
@@ -69,15 +71,15 @@ class CIFAR_Depthwise_Separable_Model(nn.Module):
             nn.ReLU(),
             nn.Dropout2d(self.drop_val),
         )
-        # Input- 8x8x64 , Output-8x8x128, RF-24
-        # Input- 8x8x128 , Output-8x8x256, RF-40
+        # Conv5 - Input- 8x8x64 , Output-8x8x128, RF-24 ( Depthwise separable convolution )
+        # Conv6 - Input- 8x8x128 , Output-8x8x256, RF-40 ( Dilation )
 
         self.MP3 = nn.Sequential(
             nn.MaxPool2d(2, 2),
             nn.Conv2d(in_channels=256, out_channels=32, kernel_size=(1, 1), bias=False)
         )
-        # Input- 4x4x256 , Output-4x4x256, RF-44
-        # Input- 4x4x256 , Output-4x4x32, RF-44
+        # Max Pooling 3 - Input- 8x8x256 , Output-4x4x256, RF-44
+        # Transition Layer 2 - Input- 4x4x256 , Output-4x4x32, RF-44
 
         # Convolution Block 4 - Depthwise separable convolution
         self.convblock4 = nn.Sequential(
@@ -88,9 +90,9 @@ class CIFAR_Depthwise_Separable_Model(nn.Module):
             nn.AvgPool2d(kernel_size=4),
             nn.Conv2d(in_channels=256, out_channels=10, kernel_size=(1, 1), padding=0, bias=False)
         )
-        # Input- 4x4x32 , Output-4x4x256, RF-60
-        # Input- 4x4x256 , Output-1x1x256
-        # Input- 1x1x256 , Output-1x1x10
+        # Conv7 - Input- 4x4x32 , Output-4x4x256, RF-60 ( Depthwise separable convolution )
+        # Global average pooling - Input- 4x4x256 , Output-1x1x256 , RF-84
+        # Final - Input- 1x1x256 , Output-1x1x10
 
     def forward(self, x):
         x = self.convblock1(x)
