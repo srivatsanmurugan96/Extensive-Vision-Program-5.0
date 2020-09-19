@@ -2,7 +2,7 @@
 
 #### Model : ResNet18
 #### Epochs : 25
-####Optimizer : SGD
+#### Optimizer : SGD
 #### Best Train Accuracy : 95.51%
 #### Best Test Accuracy : 88.66%
 
