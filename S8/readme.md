@@ -1,7 +1,7 @@
 ## Assignment 8 : ResNet18 on Cifar10
 
 #### Model : ResNet18
-#### Epochs : 25
+#### Epochs : 24
 #### Optimizer : SGD
 #### Best Train Accuracy : 95.51%
 #### Best Test Accuracy : 88.66%
