@@ -34,3 +34,6 @@ Best Learning Rate: 0.0184090179028133
 #### Learning Rate Curve
 ![Alt Text](https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S11/Lr_plot.png)
 
+#### Validation Accuracy 
+![Alt Text](https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S11/val_accuracy.png)
+
