@@ -23,8 +23,8 @@ max_lr: 0.0184090179028133
 #### Results
 Achieved an accuracy of 90.62% in 24th epoch.
 
-####LR Range Test
-Best Accuracy: 90.62%
+#### LR Range Test
+Best Accuracy: 90.32%
 
 Best Learning Rate: 0.0184090179028133
 
