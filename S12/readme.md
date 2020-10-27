@@ -1,27 +1,28 @@
 ## EVA 5 - Assignment 12 - ResNet18 model on Tiny Imagenet dataset
 
 #### Problem Statement
+
 1. Assignment A:
 
-  i.Download this TINY IMAGENET dataset.
+----  i.Download this TINY IMAGENET dataset.
    
-  ii.Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy.
+----  ii.Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy.
    
-  iii.Submit Results. Of course, you are using your own package for everything. You can look at this for reference.
+----  iii.Submit Results. Of course, you are using your own package for everything. You can look at this for reference.
 
 2.Assignment B:
 
-  i.Download 50 (min) images each of people wearing hardhat, vest, mask and boots.
+----  i.Download 50 (min) images each of people wearing hardhat, vest, mask and boots.
   
-  ii.Use these labels (same spelling and small letters): hardhat,vest,mask,boots
+----  ii.Use these labels (same spelling and small letters): hardhat,vest,mask,boots
   
-  iii.Use this to annotate bounding boxes around the hardhat, vest, mask and boots.
+----  iii.Use this to annotate bounding boxes around the hardhat, vest, mask and boots.
   
-  iv.Download JSON file.
+----  iv.Download JSON file.
   
-  v.Describe the contents of this JSON file in FULL details (you don't need to describe all 10 instances, anyone would work).
+----  v.Describe the contents of this JSON file in FULL details (you don't need to describe all 10 instances, anyone would work).
   
-  vi.Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.
+----  vi.Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.
 
 ### Assingment A:
 
