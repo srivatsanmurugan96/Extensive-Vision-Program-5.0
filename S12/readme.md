@@ -38,7 +38,7 @@ Highest Train Accuracy: 81.35% ( 30th epoch )
 
 Highest Test Accuracy: 58.74% ( 30th epoch )
 
-#### Assignment B
+### Assignment B:
 
 Best No of Clusters: 4
 
