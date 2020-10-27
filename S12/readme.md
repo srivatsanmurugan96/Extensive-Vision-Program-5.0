@@ -38,9 +38,9 @@ Highest Test Accuracy: 58.74% ( 30th epoch )
 
 #### Assignment B
 
-Link: https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/tree/master/S12/Part%20B
-
 Best No of Clusters: 4
+
+Link: https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/tree/master/S12/Part%20B
 
 Kmeans Clustering: https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S12/Part%20B/Kmeans_Clusters.ipynb
 
