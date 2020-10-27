@@ -2,7 +2,7 @@
 
 #### Problem Statement
 
-1. Assignment A:
+##### 1. Assignment A:
 
 ----  i.Download this TINY IMAGENET dataset.
    
@@ -10,7 +10,7 @@
    
 ----  iii.Submit Results. Of course, you are using your own package for everything. You can look at this for reference.
 
-2.Assignment B:
+##### 2.Assignment B:
 
 ----  i.Download 50 (min) images each of people wearing hardhat, vest, mask and boots.
   
@@ -23,6 +23,8 @@
 ----  v.Describe the contents of this JSON file in FULL details (you don't need to describe all 10 instances, anyone would work).
   
 ----  vi.Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Assingment A:
 
