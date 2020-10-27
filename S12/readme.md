@@ -26,9 +26,9 @@
 
 ### Assingment A:
 
-Total params: 11,271,432
-
 Link: https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S12/Part%20A/Session12_PartA.ipynb
+
+Total params: 11,271,432
 
 Achieved 50% accuracy in 22 epochs
 
@@ -39,3 +39,9 @@ Highest Test Accuracy: 58.74% ( 30th epoch )
 #### Assignment B
 
 Link: https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/tree/master/S12/Part%20B
+
+Best No of Clusters: 4
+
+Kmeans Clustering: https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S12/Part%20B/Kmeans_Clusters.ipynb
+
+Annotation File: https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S12/Part%20B/Kmeans_Clusters.ipynb
