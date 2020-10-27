@@ -16,7 +16,7 @@ hardhat,mask,vest,boot
 
 Notebook:https://github.com/srivatsanmurugan96/Extensive-Vision-Program-5.0/blob/master/S13/Assignment_B/Session13_PartB.ipynb
 
-youtube video: 
+youtube video: https://youtu.be/iNQFpDb_mJs
 
 ### Snippets from output
 
